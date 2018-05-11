@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btnSearchByNames"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:textColor="@color/Orange"
+        android:text="Search Tutor By Names" />
+
+    <Button
+        android:id="@+id/btnSearchByLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSearchByNames"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/Orange"
+        android:text="Search Tutor By Location-GPS" />
+
+    <Button
+        android:id="@+id/btnCancelSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSearchByLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/Orange"
+        android:text="Cancel Searching" />
+
+</RelativeLayout>

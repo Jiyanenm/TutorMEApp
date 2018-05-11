@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewForgotPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:text="Log In" 
+        android:textColor="@color/Orange"
+        
+     
+        />
+
+    <TextView
+        android:id="@+id/textMemberID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="TutorME..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" 
+         android:textColor="@color/Orange"
+        
+        />
+ 		<requestFocus />
+    <EditText
+        android:id="@+id/editLoginUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMemberID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:typeface="serif" 
+ 
+        />
+
+    <EditText
+        android:id="@+id/editLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editLoginUsername"
+        android:layout_alignRight="@+id/editLoginUsername"
+        android:layout_below="@+id/editLoginUsername"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:typeface="serif"
+
+         >
+
+       
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBoxRemeberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:hint="Remeber password"
+        android:text="Remember ME..."
+        android:textSize="19dp"
+        
+        android:textStyle="italic|bold"
+        android:typeface="normal" 
+       
+        />
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/checkBoxRemeberMe"
+        android:layout_marginBottom="16dp"
+        android:text="Forgot  Password?..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="19dp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" 
+
+        />
+
+
+</RelativeLayout>

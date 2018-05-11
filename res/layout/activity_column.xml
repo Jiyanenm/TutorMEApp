@@ -1,0 +1,164 @@
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/linearLayout1"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent" 
+android:orientation="vertical">
+
+
+
+<TextView
+
+android:id="@+id/ColMemberID"
+
+android:layout_height="wrap_content"
+
+android:layout_width="wrap_content"
+
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+<TextView
+
+android:id="@+id/ColFirstName"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="First Name"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+<TextView
+
+android:id="@+id/ColSecondName"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Second Name"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+
+android:id="@+id/ColLasName"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Last Name"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+
+android:id="@+id/ColGender"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Gender"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+
+android:id="@+id/ColSubject"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Tutors Subjects"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+
+android:id="@+id/ColTel"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Tellephone No"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+<TextView
+
+android:id="@+id/ColEmail"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="E-Mail Address"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+<TextView
+
+android:id="@+id/ColRate"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Rate Per Hour"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+<TextView
+
+android:id="@+id/ColUsername"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Username"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+<TextView
+
+android:id="@+id/ColPassword"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_weight="1"
+
+android:text="Password"
+android:textColor="@color/Orange"
+android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="array_name" >
+        
+    <item>Java Programming</item>
+    <item>C++ Programming</item>
+    <item>System Software</item>
+    <item>Node JS</item>
+    <item>Android Programming</item>
+    <item>PHP Programming</item>
+    <item>MySQL Database</item>
+    
+        
+    </string-array>
+
+    
+</resources>

@@ -1,0 +1,180 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="wrap_content"
+    	
+        android:layout_height="wrap_content">
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+   	<TableRow
+      android:id="@+id/tableRow1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+     
+     <TextView
+        android:id="@+id/textViewBookedTutorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Update Form "
+        android:textColor="@color/Orange"
+        android:layout_span="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  	        
+ 	</TableRow>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+ 
+  <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+     <TableRow>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MemberID "
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="0.2"
+          android:text=" = " />
+
+      <TextView
+          android:id="@+id/txtUpdateMemberID"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/Orange"
+          android:text="MemberID" />
+
+     </TableRow>
+     
+	<TableRow>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Username "
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="0.2"
+          android:text=" = " />
+      <TextView
+          android:id="@+id/txtUpdateUsernames"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/Orange"
+          android:text="Username" />
+     </TableRow>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Input Password/Confirm Password :"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TableRow>
+
+      <EditText
+          android:id="@+id/editUpdatePassword"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:ems="6"
+          android:inputType="textPassword" >
+
+      </EditText>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Again " />
+
+      <EditText
+          android:id="@+id/editUpdateConfPassword"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:ems="7"
+          android:inputType="textPassword" >
+      </EditText>
+      </TableRow>
+      
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Input Subject :"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <EditText
+          android:id="@+id/editUpdateSubject"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:ems="10" >
+      </EditText>
+      
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Input Email :"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <EditText
+          android:id="@+id/editUpdateEmail"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:inputType="textEmailAddress" >
+
+      </EditText>
+      
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Input Rate  Per Hour:"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <EditText
+          android:id="@+id/editUpdateRatePerHour"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:inputType="phone" >
+
+      </EditText>
+
+		<Button
+		    android:id="@+id/btnUpdateSave"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/Orange"
+		    android:text="Update" />
+  	        
+ 	</TableLayout >
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+   		  
+   	<LinearLayout
+      android:id="@+id/LinearLayout1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="5dip" >
+
+   		<TextView
+   		    android:id="@+id/textView2"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:textColor="@color/Orange"
+   		    android:text="www.tutormi.co.za" />
+
+	</LinearLayout>
+	
+</TableLayout>
+</ScrollView>

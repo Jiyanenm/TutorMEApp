@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tutorme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tutorme"
+        android:label="@string/app_name"
+      
+         >
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.TutorProfileActivity"
+            android:label="@string/title_activity_tutor_profile" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.RegisterTutorWebActivity"
+            android:label="@string/title_activity_register_tutoe_web" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.GetTutorDirectionsActivity"
+            android:label="@string/title_activity_get_tutor_directions" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.ConfirmPaymentsActivity"
+            android:label="@string/title_activity_make_payments" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.UpdateTutorProfileActivity"
+            android:label="@string/title_activity_update_tutor_profile" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.SearchTutorActivity"
+            android:label="@string/title_activity_search_tutor" >
+            <intent-filter>
+                <action android:name="com.example.tutorme.SearchTutorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.BookForTutorActivity"
+            android:label="@string/title_activity_book_tutor" >
+            <intent-filter>
+                <action android:name="com.example.tutorme.BookForTutorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.BookAvailTutorActivity"
+            android:label="@string/title_activity_book_avail_tutor" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.SearchAvailTutorActivity"
+            android:label="@string/title_activity_search_avail_tutor" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.MakePaymentActivity"
+            android:label="@string/title_activity_make_payment" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.ConfirmPaymentActivity"
+            android:label="@string/title_activity_confirm_payment" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.SearchTutorByNameActivity"
+            android:label="@string/title_activity_search_tutor_by_name" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.SearchTutorByLocationActivity"
+            android:label="@string/title_activity_search_tutor_by_location" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.ManageBookingsActivity"
+            android:label="@string/title_activity_manage_bookings" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.HelpAdminActivity"
+            android:label="@string/title_activity_help_admin" >
+        </activity>
+        <activity
+            android:name="za.co.tutormi.tpg30bd.project.dao.ForgotPasswordAdminActivity"
+            android:label="@string/title_activity_forgot_password_admin" >
+        </activity>
+        
+        <uses-library android:name="com.google.android.maps" />
+    </application>
+    
+    
+
+</manifest>
